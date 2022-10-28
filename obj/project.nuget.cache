@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "kmSM02AKpc73C0eqe34AkwLjt8HYPWmYOrYNcI51YyaTVHXfZUY9/b0U0LSpqoqs+F/4k+gc2ghUYmNbFm8SBw==",
+  "dgSpecHash": "ZXJERmQJRXcFh8G1HJotvwfItihXSAGWYroEMvoC8H2xYWCAvu4oTqwbmUBKcXak8SfjfB0f/QSEytDh8OElcA==",
   "success": true,
   "projectFilePath": "C:\\Users\\davis\\OneDrive\\Escritorio\\Documents\\universidad\\semestres\\10o\\arquitectura\\proyecto\\codigo_fuente\\ms-gusr\\ms-gusr.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\davis\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\davis\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\davis\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\davis\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\davis\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\davis\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
   "logs": []
 }
