@@ -1,4 +1,4 @@
-namespace ms_gusr;
+namespace Canela.Service.UserMgmt;
 
 public class WeatherForecast
 {

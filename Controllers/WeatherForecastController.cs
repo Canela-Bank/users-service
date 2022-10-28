@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace ms_gusr.Controllers;
+namespace Canela.Service.UserMgmt.Controllers;
 
 [ApiController]
 [Route("[controller]")]
