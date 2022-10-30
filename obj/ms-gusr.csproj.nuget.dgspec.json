@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\davis\\OneDrive\\Escritorio\\Documents\\universidad\\semestres\\10o\\arquitectura\\proyecto\\codigo_fuente\\ms-gusr\\ms-gusr.csproj": {}
+    "E:\\RPEOS DE PROYECTO DE ARQUI\\REPO USUARIOS\\ms-gusr\\ms-gusr.csproj": {}
   },
   "projects": {
-    "C:\\Users\\davis\\OneDrive\\Escritorio\\Documents\\universidad\\semestres\\10o\\arquitectura\\proyecto\\codigo_fuente\\ms-gusr\\ms-gusr.csproj": {
+    "E:\\RPEOS DE PROYECTO DE ARQUI\\REPO USUARIOS\\ms-gusr\\ms-gusr.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\davis\\OneDrive\\Escritorio\\Documents\\universidad\\semestres\\10o\\arquitectura\\proyecto\\codigo_fuente\\ms-gusr\\ms-gusr.csproj",
+        "projectUniqueName": "E:\\RPEOS DE PROYECTO DE ARQUI\\REPO USUARIOS\\ms-gusr\\ms-gusr.csproj",
         "projectName": "ms-gusr",
-        "projectPath": "C:\\Users\\davis\\OneDrive\\Escritorio\\Documents\\universidad\\semestres\\10o\\arquitectura\\proyecto\\codigo_fuente\\ms-gusr\\ms-gusr.csproj",
-        "packagesPath": "C:\\Users\\davis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\davis\\OneDrive\\Escritorio\\Documents\\universidad\\semestres\\10o\\arquitectura\\proyecto\\codigo_fuente\\ms-gusr\\obj\\",
+        "projectPath": "E:\\RPEOS DE PROYECTO DE ARQUI\\REPO USUARIOS\\ms-gusr\\ms-gusr.csproj",
+        "packagesPath": "C:\\Users\\juanc\\.nuget\\packages\\",
+        "outputPath": "E:\\RPEOS DE PROYECTO DE ARQUI\\REPO USUARIOS\\ms-gusr\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\davis\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\juanc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -62,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
