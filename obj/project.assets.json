@@ -224,24 +224,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\davis\\.nuget\\packages\\": {}
+    "C:\\Users\\Felipe\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\davis\\OneDrive\\Escritorio\\Documents\\universidad\\semestres\\10o\\arquitectura\\proyecto\\codigo_fuente\\ms-gusr\\ms-gusr.csproj",
+      "projectUniqueName": "C:\\Users\\Felipe\\Desktop\\movilAppCanela\\ms-gusr\\ms-gusr.csproj",
       "projectName": "ms-gusr",
-      "projectPath": "C:\\Users\\davis\\OneDrive\\Escritorio\\Documents\\universidad\\semestres\\10o\\arquitectura\\proyecto\\codigo_fuente\\ms-gusr\\ms-gusr.csproj",
-      "packagesPath": "C:\\Users\\davis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\davis\\OneDrive\\Escritorio\\Documents\\universidad\\semestres\\10o\\arquitectura\\proyecto\\codigo_fuente\\ms-gusr\\obj\\",
+      "projectPath": "C:\\Users\\Felipe\\Desktop\\movilAppCanela\\ms-gusr\\ms-gusr.csproj",
+      "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Felipe\\Desktop\\movilAppCanela\\ms-gusr\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\davis\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
