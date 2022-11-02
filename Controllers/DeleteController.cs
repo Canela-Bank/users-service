@@ -27,12 +27,12 @@ namespace Canela.Service.UserMgmt.Controllers
 
         //peticion delete para borrar: user/121315
         [HttpDelete]
-        [Route("delete/{document}")]
-        public async Task<HttpResponseMessage> DeleteAccount(string document)
+        [Route("delete/{doctype}/{document}")]
+        public async Task<HttpResponseMessage> DeleteAccount(string document, string docType)
         {
             //llamado al integrador de datos para buscar usuario a eliminar
             //TODO verificar conexion intregrador de datos. 
-            _client.BaseAddress = new Uri("http://localhost:4000/graphql?query=mutation{deleteAccount(ac1:\"" + document + "\"){dp}");
+            _client.BaseAddress = new Uri("http://localhost:4000/graphql?query=mutation{deleteUser(document:\"" + document + "\",document_type:" + docType + "){message}");
 
             var httpResponse = await _client.DeleteAsync(_client.BaseAddress);
 
