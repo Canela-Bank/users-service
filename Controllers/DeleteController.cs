@@ -27,8 +27,8 @@ namespace Canela.Service.UserMgmt.Controllers
 
         //peticion delete para borrar: user/121315
         [HttpDelete]
-        [Route("delete/{doctype}/{document}")]
-        public async Task<HttpResponseMessage> DeleteAccount(string document, string docType)
+        [Route("delete-user/{doctype}/{document}")]
+        public async Task<IActionResult> DeleteAccount(string docType, string document)
         {
             //llamado al integrador de datos para buscar usuario a eliminar
             //TODO verificar conexion intregrador de datos. 
@@ -43,17 +43,23 @@ namespace Canela.Service.UserMgmt.Controllers
             {
                 result = await httpResponse.Content.ReadAsStringAsync();
 
-                return new HttpResponseMessage(HttpStatusCode.Accepted);
+                
+                return StatusCode(StatusCodes.Status202Accepted, "Eliminado");
             }
 
-            if (httpResponse.StatusCode.Equals(500))
+            if (httpResponse.IsSuccessStatusCode != true)
             {
                 result = await httpResponse.Content.ReadAsStringAsync();
 
-                return new HttpResponseMessage(HttpStatusCode.InternalServerError);
+                
+
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error eliminando cuenta");
+
             }
 
-            return new HttpResponseMessage(HttpStatusCode.NotFound);
+
+            return StatusCode(StatusCodes.Status404NotFound, "Cuenta no encontrada");
+
         }
     }
 }
