@@ -15,7 +15,7 @@ namespace Canela.Service.UserMgmt.Controllers
 
         string url = null;
         private static HttpClient _client;
-        
+
         public DeleteController()
         {
             if (_client == null)
@@ -32,7 +32,12 @@ namespace Canela.Service.UserMgmt.Controllers
         {
             //llamado al integrador de datos para buscar usuario a eliminar
             //TODO verificar conexion intregrador de datos. 
-            _client.BaseAddress = new Uri("http://localhost:4000/graphql?query=mutation{deleteUser(document:\"" + document + "\",document_type:" + docType + "){message}");
+            
+            
+            _client.BaseAddress = new Uri("http://localhost:3001/graphql?query=mutation%7B%0A%20%20deleteUser(document%3A%22"+ document +"%22%2C%20document_type%3A%20" + docType +")%7B%0A%20%20%20%20message%2C%0A%20%20%20%20data%7B%0A%20%20%20%20%20%20document%2C%0A%20%20%20%20%20%20document_type%2C%20%0A%20%20%20%20%20%20name%2C%0A%20%20%20%20%20%20last_name%2C%0A%20%20%20%20%20%20birth_date%2C%0A%20%20%20%20%20%20phone_number%2C%0A%20%20%20%20%20%20email%0A%20%20%20%20%7D%0A%20%20%7D%0A%0A%7D");
+
+            
+            
 
             var httpResponse = await _client.DeleteAsync(_client.BaseAddress);
 
@@ -43,7 +48,6 @@ namespace Canela.Service.UserMgmt.Controllers
             {
                 result = await httpResponse.Content.ReadAsStringAsync();
 
-                
                 return StatusCode(StatusCodes.Status202Accepted, "Eliminado");
             }
 
