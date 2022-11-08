@@ -24,7 +24,8 @@ namespace Canela.Service.UserMgmt.Controllers
         public async Task<HttpResponseMessage> CreateAccount(User usuario)
         {
             _client = new HttpClient();
-            _client.BaseAddress = new Uri("http://localhost:3001/graphql?query=mutation{ createUser( document: \"" + usuario.Documento.ToString() + "\" document_type: " + usuario.tipo_documento.ToString() + " name: \"" + usuario.nombres.ToString() + "\" last_name: \"" + usuario.apellidos.ToString() + "\" birth_date: \"" + usuario.fecha_nacimiento.ToString() + "\" address: \"" + usuario.direccion.ToString() + "\" phone_number: \"" + usuario.telefono.ToString() + "\" email: \"" + usuario.correo.ToString() + "\" ) { document document_type name last_name birth_date address phone_number email }}");
+            string newdir = usuario.direccion.ToString().Replace("#", "%23");
+            _client.BaseAddress = new Uri("http://localhost:3001/graphql?query=mutation{ createUser( document: \"" + usuario.Documento.ToString() + "\" document_type: " + usuario.tipo_documento.ToString() + " name: \"" + usuario.nombres.ToString() + "\" last_name: \"" + usuario.apellidos.ToString() + "\" birth_date: \"" + usuario.fecha_nacimiento.ToString() + "\" address: \"" + newdir + "\" phone_number: \"" + usuario.telefono.ToString() + "\" email: \"" + usuario.correo.ToString() + "\" ) { document document_type name last_name birth_date address phone_number email }}");
             var content = new StringContent("", Encoding.UTF8, "application/json");
             var httpResponse = await _client.PostAsync(_client.BaseAddress, content);
 
