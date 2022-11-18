@@ -1,8 +1,10 @@
 using Canela.Service.UserMgmt.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.VisualBasic;
+using Newtonsoft.Json;
 using System.Net;
 using System.Security.Principal;
+using System.Text;
 
 namespace Canela.Service.UserMgmt.Controllers
 {
@@ -55,5 +57,6 @@ namespace Canela.Service.UserMgmt.Controllers
 
             return new HttpResponseMessage(HttpStatusCode.NotFound);
         }
+        
     }
 }

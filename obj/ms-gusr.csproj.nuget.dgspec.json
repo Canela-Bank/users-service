@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Felipe\\Desktop\\movilAppCanela\\ms-gusr\\ms-gusr.csproj": {}
+    "E:\\RPEOS DE PROYECTO DE ARQUI\\REPO USUARIOS\\ms-gusr\\ms-gusr.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Felipe\\Desktop\\movilAppCanela\\ms-gusr\\ms-gusr.csproj": {
+    "E:\\RPEOS DE PROYECTO DE ARQUI\\REPO USUARIOS\\ms-gusr\\ms-gusr.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Felipe\\Desktop\\movilAppCanela\\ms-gusr\\ms-gusr.csproj",
+        "projectUniqueName": "E:\\RPEOS DE PROYECTO DE ARQUI\\REPO USUARIOS\\ms-gusr\\ms-gusr.csproj",
         "projectName": "ms-gusr",
-        "projectPath": "C:\\Users\\Felipe\\Desktop\\movilAppCanela\\ms-gusr\\ms-gusr.csproj",
-        "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Felipe\\Desktop\\movilAppCanela\\ms-gusr\\obj\\",
+        "projectPath": "E:\\RPEOS DE PROYECTO DE ARQUI\\REPO USUARIOS\\ms-gusr\\ms-gusr.csproj",
+        "packagesPath": "C:\\Users\\juanc\\.nuget\\packages\\",
+        "outputPath": "E:\\RPEOS DE PROYECTO DE ARQUI\\REPO USUARIOS\\ms-gusr\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juanc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
